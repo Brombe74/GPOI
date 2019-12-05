@@ -1,7 +1,7 @@
 ---
 title: Gestione Progetto
 created: '2019-11-21T07:50:44.588Z'
-modified: '2019-11-28T08:26:30.319Z'
+modified: '2019-12-05T08:29:36.028Z'
 ---
 
 # Gestione Progetto 
@@ -73,5 +73,40 @@ git tag -a nome tag -m "messaggio"
 ```
 
 ```bash
-git revert tag/id= torno effettivamente a quel commit e posso modificare senza problemi (solo con quello precedente)
+git revert tag/id= torno effettivamente a quel commit e posso modificare senza problemi (solo con quello precedente), ma creo un commit nuovo quindi non torno per davvero indietro
 ```
+### 5/12/2019
+```bash
+git reset --hard= lascia i file "senza commit", ma tutti i file già esistenti modificati e senza commit li fa tornare all'ultimo commit
+```
+
+```bash
+git clean -f= cancella i file "senza commit"
+```
+**BRANCHE**
+
+E' una linea indipendente dallo sviluppo, puoi fare una "copia" dei file in un'altro luogo, modificarlo e se ti piace unirla al progetto originale
+
+        O inizio
+        |
+        |
+        O divisione
+       /|
+      / |
+      0 |
+      | | 
+      | |  
+      \ |  
+       \|
+        0 merge
+        |
+
+```bash
+git branch= mostra i branch esistenti
+```
+
+```bash
+
+```
+
+
