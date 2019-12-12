@@ -1,7 +1,7 @@
 ---
 title: Gestione Progetto
 created: '2019-11-21T07:50:44.588Z'
-modified: '2019-12-05T08:29:36.028Z'
+modified: '2019-12-12T08:29:36.407Z'
 ---
 
 # Gestione Progetto 
@@ -104,9 +104,24 @@ E' una linea indipendente dallo sviluppo, puoi fare una "copia" dei file in un'a
 ```bash
 git branch= mostra i branch esistenti
 ```
+**12/12/2019**
 
 ```bash
-
+git branch nome= creo un branch
 ```
 
+```bash
+git checkout nome= passo nel branch desiderato
+```
+
+```bash
+git checkout -b nome= passo direttamente nel branch
+```
+
+```bash
+git merge nome= eseguo il merge, prima di questo devo passare nel master/nel branch "master" rispetto a quello con cui voglio fare il merge
+```
+```bash
+git log --oneline --graph=mostra grafico dei commit con i branch
+```
 
