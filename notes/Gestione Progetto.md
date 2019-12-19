@@ -1,7 +1,7 @@
 ---
 title: Gestione Progetto
 created: '2019-11-21T07:50:44.588Z'
-modified: '2019-12-12T08:29:36.407Z'
+modified: '2019-12-19T08:30:40.136Z'
 ---
 
 # Gestione Progetto 
@@ -124,4 +124,30 @@ git merge nome= eseguo il merge, prima di questo devo passare nel master/nel bra
 ```bash
 git log --oneline --graph=mostra grafico dei commit con i branch
 ```
+**19/12/2019**
 
+```bash
+git rebase= simile al merge ma prende un tot di commit e li copia da qualche parte 
+```
+
+```bash
+git rebase nome= prende la roba aggiornata del master e la porta in bugfix
+```
+
+REMOTE 
+
+```bash
+git clone= crei una copia locale di una repo remota
+```
+
+```bash
+git fetch= scarica gli aggiornamenti dalla repo remota 
+```
+
+```bash
+git pull = fetch e merge uniti 
+```
+
+```bash 
+git push= mette la roba in remoto
+```
