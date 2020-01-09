@@ -1,13 +1,15 @@
 ---
 title: Gestione Progetto
 created: '2019-11-21T07:50:44.588Z'
-modified: '2019-12-19T08:30:40.136Z'
+modified: '2020-01-09T08:03:09.312Z'
 ---
 
 # Gestione Progetto 
 
 ### 21/11/2019
 Fonte: https://web.archive.org/web/20161121145226/http://rypress.com:80/tutorials/git/index
+
+Fonte: https://learngitbranching.js.org/
 
 Git è un sistema di **versioning**, tiene traccia di ciascun cambiamento che avviene nel tuo progetto e da chi vengono fatti.
 Prima di Git era il classico fare un progetto e ri/nominarlo
@@ -151,3 +153,5 @@ git pull = fetch e merge uniti
 ```bash 
 git push= mette la roba in remoto
 ```
+
+
