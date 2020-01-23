@@ -1,10 +1,10 @@
 ---
-title: Gestione Progetto
+title: Git
 created: '2019-11-21T07:50:44.588Z'
-modified: '2020-01-09T08:03:09.312Z'
+modified: '2020-01-23T07:50:25.236Z'
 ---
 
-# Gestione Progetto 
+# Git 
 
 ### 21/11/2019
 Fonte: https://web.archive.org/web/20161121145226/http://rypress.com:80/tutorials/git/index
